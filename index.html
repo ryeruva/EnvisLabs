@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EnvisLabs</title>
+  <meta name="description" content="EnvisLabs.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>EnvisLabs</h1>
+    <p class="tagline">Something is taking shape.</p>
+    <p class="sub">We don't say what yet. You'll know when it's ready.</p>
+    <form class="notify" action="#" method="post">
+      <input type="email" placeholder="your@email.com" required aria-label="Email address">
+      <button type="submit">Notify me</button>
+    </form>
+  </main>
+  <footer>
+    <span>&copy; <span id="year"></span> EnvisLabs LLC</span>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

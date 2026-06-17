@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: #0a0a0a;
+  color: #f4f4f2;
+  font-family: -apple-system, BlinkMacSystemFont, "Inter", "Helvetica Neue", Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  padding: 24px;
+}
+
+h1 {
+  font-size: clamp(2.5rem, 8vw, 5rem);
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  margin-bottom: 1rem;
+}
+
+.tagline {
+  font-size: 1.25rem;
+  color: #cfcfcf;
+  margin-bottom: 0.5rem;
+}
+
+.sub {
+  font-size: 0.95rem;
+  color: #777;
+  margin-bottom: 2.5rem;
+  max-width: 360px;
+}
+
+.notify {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.notify input {
+  background: #161616;
+  border: 1px solid #2a2a2a;
+  color: #f4f4f2;
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  min-width: 240px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.notify input:focus {
+  border-color: #555;
+}
+
+.notify button {
+  background: #f4f4f2;
+  color: #0a0a0a;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.notify button:hover {
+  opacity: 0.85;
+}
+
+footer {
+  position: absolute;
+  bottom: 24px;
+  font-size: 0.8rem;
+  color: #444;
+}
