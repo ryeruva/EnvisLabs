@@ -9,80 +9,31 @@ html, body {
 }
 
 body {
-  background: #0a0a0a;
+  background: #0a0a0a url('background.svg') center center / cover no-repeat fixed;
   color: #f4f4f2;
-  font-family: -apple-system, BlinkMacSystemFont, "Inter", "Helvetica Neue", Arial, sans-serif;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
   min-height: 100vh;
-  text-align: center;
-  padding: 24px;
+  position: relative;
 }
 
-h1 {
-  font-size: clamp(2.5rem, 8vw, 5rem);
-  font-weight: 600;
-  letter-spacing: -0.03em;
-  margin-bottom: 1rem;
-}
-
-.tagline {
-  font-size: 1.25rem;
-  color: #cfcfcf;
-  margin-bottom: 0.5rem;
-}
-
-.sub {
-  font-size: 0.95rem;
-  color: #777;
-  margin-bottom: 2.5rem;
-  max-width: 360px;
-}
-
-.notify {
-  display: flex;
-  gap: 0.5rem;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.notify input {
-  background: #161616;
-  border: 1px solid #2a2a2a;
+.logo {
+  position: absolute;
+  top: 5vh;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  letter-spacing: -0.02em;
   color: #f4f4f2;
-  padding: 0.75rem 1rem;
-  border-radius: 6px;
-  font-size: 0.95rem;
-  min-width: 240px;
-  outline: none;
-  transition: border-color 0.2s;
-}
-
-.notify input:focus {
-  border-color: #555;
-}
-
-.notify button {
-  background: #f4f4f2;
-  color: #0a0a0a;
-  border: none;
-  padding: 0.75rem 1.5rem;
-  border-radius: 6px;
-  font-size: 0.95rem;
-  font-weight: 500;
-  cursor: pointer;
-  transition: opacity 0.2s;
-}
-
-.notify button:hover {
-  opacity: 0.85;
+  text-shadow: 0 0 30px rgba(0,0,0,0.6);
 }
 
 footer {
   position: absolute;
   bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
   font-size: 0.8rem;
-  color: #444;
+  color: #555;
 }

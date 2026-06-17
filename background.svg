@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1c1f24" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1920" height="1080" fill="#0a0a0a"/>
+  <rect width="1920" height="1080" fill="url(#grid)"/>
+
+  <g stroke="#3a4452" stroke-width="1.2" fill="none" opacity="0.55">
+
+    <!-- PCB board top-left -->
+    <g transform="translate(60,60)">
+      <rect x="0" y="0" width="380" height="240" rx="6"/>
+      <circle cx="20" cy="20" r="6"/>
+      <circle cx="360" cy="20" r="6"/>
+      <circle cx="20" cy="220" r="6"/>
+      <circle cx="360" cy="220" r="6"/>
+      <rect x="40" y="40" width="90" height="60"/>
+      <path d="M40 50 H10 M40 60 H10 M40 70 H10 M40 80 H10 M40 90 H10"/>
+      <path d="M130 50 H170 M130 60 H170 M130 60 V100 H260 V60 H290"/>
+      <path d="M150 100 V160 H230 V100"/>
+      <circle cx="300" cy="80" r="22"/>
+      <path d="M278 80 H260 M322 80 H345"/>
+      <path d="M60 160 H110 V200 H60 Z"/>
+      <path d="M150 180 H320 M150 195 H320 M150 210 H320"/>
+    </g>
+
+    <!-- exploded view stack, top-right -->
+    <g transform="translate(1380,40)">
+      <rect x="0" y="0" width="260" height="36"/>
+      <line x1="40" y1="36" x2="20" y2="80" stroke-dasharray="4 4"/>
+      <line x1="220" y1="36" x2="240" y2="80" stroke-dasharray="4 4"/>
+      <rect x="20" y="80" width="220" height="50"/>
+      <circle cx="45" cy="105" r="6"/>
+      <circle cx="195" cy="105" r="6"/>
+      <line x1="35" y1="130" x2="15" y2="175" stroke-dasharray="4 4"/>
+      <line x1="225" y1="130" x2="245" y2="175" stroke-dasharray="4 4"/>
+      <rect x="15" y="175" width="230" height="60" rx="4"/>
+      <path d="M30 195 H230 M30 210 H230"/>
+      <line x1="30" y1="235" x2="10" y2="280" stroke-dasharray="4 4"/>
+      <line x1="230" y1="235" x2="250" y2="280" stroke-dasharray="4 4"/>
+      <rect x="10" y="280" width="240" height="34" rx="6"/>
+    </g>
+
+    <!-- isometric cube wireframe, mid right -->
+    <g transform="translate(1520,420)">
+      <path d="M0 60 L80 20 L160 60 L80 100 Z"/>
+      <path d="M0 60 L0 160 L80 200 L80 100"/>
+      <path d="M160 60 L160 160 L80 200"/>
+      <line x1="0" y1="60" x2="80" y2="100"/>
+      <line x1="160" y1="60" x2="80" y2="100"/>
+    </g>
+
+    <!-- dimension lines, scattered -->
+    <g transform="translate(200,420)">
+      <line x1="0" y1="0" x2="260" y2="0"/>
+      <line x1="0" y1="-8" x2="0" y2="8"/>
+      <line x1="260" y1="-8" x2="260" y2="8"/>
+      <line x1="0" y1="0" x2="0" y2="90"/>
+      <line x1="-8" y1="90" x2="8" y2="90"/>
+    </g>
+
+    <!-- sketch to product: freehand curve morphing to clean rect -->
+    <g transform="translate(140,560)">
+      <path d="M0 80 C20 10, 90 -10, 140 40 C160 65, 150 110, 110 110 C70 110, 60 70, 90 60" stroke-linecap="round"/>
+      <path d="M240 0 H400 V120 H240 Z"/>
+      <line x1="170" y1="55" x2="230" y2="55" stroke-dasharray="2 6"/>
+      <path d="M220 50 L232 55 L220 60"/>
+    </g>
+
+    <!-- chip wireframe with pins, bottom left -->
+    <g transform="translate(80,820)">
+      <rect x="0" y="0" width="140" height="140" rx="4"/>
+      <circle cx="20" cy="20" r="4"/>
+      <path d="M0 25 H-20 M0 45 H-20 M0 65 H-20 M0 85 H-20 M0 105 H-20"/>
+      <path d="M140 25 H160 M140 45 H160 M140 65 H160 M140 85 H160 M140 105 H160"/>
+      <path d="M25 0 V-20 M45 0 V-20 M65 0 V-20 M85 0 V-20 M105 0 V-20"/>
+      <path d="M25 140 V160 M45 140 V160 M65 140 V160 M85 140 V160 M105 140 V160"/>
+    </g>
+
+    <!-- exploded enclosure, bottom center -->
+    <g transform="translate(620,760)">
+      <ellipse cx="160" cy="220" rx="180" ry="20"/>
+      <path d="M0 60 Q160 0 320 60 L320 100 Q160 160 0 100 Z"/>
+      <line x1="60" y1="90" x2="60" y2="150" stroke-dasharray="3 5"/>
+      <line x1="260" y1="90" x2="260" y2="150" stroke-dasharray="3 5"/>
+      <path d="M40 150 Q160 200 280 150 L280 180 Q160 230 40 180 Z"/>
+    </g>
+
+    <!-- screw / fastener wireframe -->
+    <g transform="translate(1020,920)">
+      <circle cx="0" cy="0" r="26"/>
+      <line x1="-18" y1="0" x2="18" y2="0"/>
+      <line x1="0" y1="-18" x2="0" y2="18"/>
+      <path d="M0 26 L0 60"/>
+      <path d="M-10 60 L10 60 L6 80 L-6 80 Z"/>
+    </g>
+
+    <!-- circuit trace running across lower right -->
+    <g transform="translate(1100,600)">
+      <path d="M0 0 H120 V60 H260 V-40 H420"/>
+      <circle cx="0" cy="0" r="5"/>
+      <circle cx="420" cy="-40" r="5"/>
+      <circle cx="260" cy="-40" r="5"/>
+    </g>
+
+    <!-- second pcb fragment far right bottom -->
+    <g transform="translate(1500,820)">
+      <rect x="0" y="0" width="220" height="160" rx="6"/>
+      <path d="M20 20 H80 V60 H20 Z"/>
+      <path d="M100 20 H200 M100 35 H200 M100 50 H200"/>
+      <circle cx="170" cy="100" r="18"/>
+      <path d="M20 100 H120 V140 H20 Z"/>
+    </g>
+
+  </g>
+</svg>
