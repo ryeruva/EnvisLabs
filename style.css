@@ -21,7 +21,7 @@ body {
   top: 5vh;
   left: 50%;
   transform: translateX(-50%);
-  width: clamp(220px, 26vw, 360px);
+  width: clamp(160px, 18vw, 260px);
   height: auto;
   filter: drop-shadow(0 0 24px rgba(0,0,0,0.55));
 }

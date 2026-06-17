@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 360">
   <g fill="none" stroke="#dde4ec" stroke-width="2" stroke-linecap="round">
 
     <!-- outer dashed triangle -->
@@ -40,5 +40,5 @@
   </g>
 
   <!-- wordmark -->
-  <text x="350" y="225" font-family="'Space Grotesk', sans-serif" font-size="92" font-weight="700" fill="#f4f4f2">Envis<tspan font-weight="500" fill="#c4d2e0">Labs</tspan></text>
+  <text x="350" y="225" font-family="'Space Grotesk', sans-serif" font-size="92" font-weight="700" fill="#f4f4f2" letter-spacing="-1">Envis<tspan font-weight="500" fill="#c4d2e0">Labs</tspan></text>
 </svg>
