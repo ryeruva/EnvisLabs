@@ -21,12 +21,17 @@ body {
   top: 5vh;
   left: 50%;
   transform: translateX(-50%);
-  font-family: 'Space Grotesk', sans-serif;
-  font-weight: 700;
-  font-size: clamp(1.8rem, 4vw, 2.6rem);
-  letter-spacing: -0.02em;
-  color: #f4f4f2;
-  text-shadow: 0 0 30px rgba(0,0,0,0.6);
+  width: clamp(220px, 26vw, 360px);
+  height: auto;
+  filter: drop-shadow(0 0 24px rgba(0,0,0,0.55));
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
 }
 
 footer {
